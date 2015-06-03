@@ -7,11 +7,7 @@ master: [![Build status](https://ci.appveyor.com/api/projects/status/12bkj9y5wcy
 C# port of the [excellent Java MetadataExtractor library by Drew Noakes](https://drewnoakes.com/code/exif/). 
 
 
-
-
-Initial coversion was performed with [Sharpen](https://github.com/imazen/sharpen); details can be found in [HowToConvert.md](HowToConvert.md) and [SharpenBugsAndProblems.md](SharpenBugsAndProblems.md). Significant manual work was required afterward to make the library build and pass all tests correctly.
-
-Conversion was performed against [this copy](https://github.com/ydanila/j-metadata-extractor) of the MetadataExtractor library, which [was reorganized to be amenable to Sharpen conversion](https://github.com/ydanila/j-metadata-extractor/commit/0b6d857dde184bf992a975957521f950ed0e92f6). This copy, in turn, was based on the [Jan 18, 2014 commit eb70b234529a](https://code.google.com/p/metadata-extractor/source/detail?r=eb70b234529ae267c9ba72e9df68d9acb7e3504b). 
+Automated conversion was performed with our [enhanced version of Sharpen](https://github.com/imazen/sharpen), [custom configuration](https://github.com/imazen/sharpen_imazen_config), and then a set of manual patches. MetadataExtractor 2.8.0 was converted.
 
 Many thanks to Yakov Danilov <yakodani@gmail.com> his work in porting this library from Java to C#. 
 
