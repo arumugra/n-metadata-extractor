@@ -1,6 +1,8 @@
 NMetadataExtractor
 ====================
 
+**Update June 25 2015** See [the original author's fork instead](https://github.com/drewnoakes/metadata-extractor-dotnet)! We're happy to see an official C# version kept in sync with the Java original. 
+
 master: [![Build status](https://ci.appveyor.com/api/projects/status/12bkj9y5wcydqak7/branch/master?svg=true)](https://ci.appveyor.com/project/imazen/n-metadata-extractor/branch/master) most recent commit: [![Build status](https://ci.appveyor.com/api/projects/status/12bkj9y5wcydqak7?svg=true)](https://ci.appveyor.com/project/imazen/n-metadata-extractor) [Download documentation archive](https://ci.appveyor.com/project/imazen/n-metadata-extractor/build/artifacts)
 
 
